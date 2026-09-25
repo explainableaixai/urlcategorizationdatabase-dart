@@ -151,7 +151,7 @@ That keeps unit tests offline and fast.
 
 Two questions come up often once categories are flowing:
 
-- Which of these sites are AI tools? The general taxonomy treats them as software. For [unauthorized AI tool discovery](https://www.aitoolsblocklist.com), check them against a dedicated register.
+- Which of these sites are AI tools? The general taxonomy treats them as software. For [unauthorized AI tool discovery](https://www.aitoolsblocklist.com/unauthorized-ai-tools-detection.php), check them against a dedicated register.
 - How much AI use is there across the organisation? Existing DNS or proxy logs show [how to detect shadow AI](https://www.shadowaitools.com/detection-methodology.php) without new agents on endpoints.
 
 ## Other packages
