@@ -2,7 +2,7 @@
 
 Teams that license a URL category database load it into their own systems and match against it offline. That covers the domains in the file. It does not cover the domain registered last Tuesday, or the long tail of small sites a crawler reaches first. This Dart package fills that gap: it sends one URL to the live classifier and returns its categories, so your pipeline can label what the file did not contain.
 
-Product details, coverage and file formats are on the [URL categorization data for offline matching](https://www.urlcategorizationdatabase.com) site.
+Product details, coverage and file formats are on the [URL categorization database site](https://www.urlcategorizationdatabase.com).
 
 ## Install
 
@@ -99,7 +99,7 @@ The labels are a means to an end. Common uses:
 - **Security.** Feed categories into a proxy or DNS policy that allows or blocks by topic.
 - **Data cleaning.** Tag a list of company websites by industry before a sales team uses it.
 
-For the security case, pair content categories with [filtering categories mapped to policy actions](https://www.webfilteringdatabase.com), which are designed for allow and block decisions rather than topic labels.
+For the security case, pair content categories with [enterprise web filter categories](https://www.webfilteringdatabase.com/categories-web-filtering.php), which are designed for allow and block decisions rather than topic labels.
 
 ## Things the client does and does not do
 
@@ -151,8 +151,8 @@ That keeps unit tests offline and fast.
 
 Two questions come up often once categories are flowing:
 
-- Which of these sites are AI tools? The general taxonomy treats them as software. To [separate AI assistants from ordinary SaaS](https://www.aitoolsblocklist.com), check them against a dedicated register.
-- How much AI use is there across the organisation? Existing DNS or proxy logs can [measure AI adoption from existing logs](https://www.shadowaitools.com) without new agents on endpoints.
+- Which of these sites are AI tools? The general taxonomy treats them as software. For [unauthorized AI tool discovery](https://www.aitoolsblocklist.com/unauthorized-ai-tools-detection.php), check them against a dedicated register.
+- How much AI use is there across the organisation? Existing DNS or proxy logs show [how to detect shadow AI](https://www.shadowaitools.com/detection-methodology.php) without new agents on endpoints.
 
 ## Other packages
 

@@ -1,6 +1,6 @@
 name: urlcategorizationdatabase
 description: Dart client for URL Categorization Database, with typed API errors, configurable timeouts, and JSON results.
-version: 1.0.1
+version: 1.0.2
 homepage: https://www.urlcategorizationdatabase.com
 repository: https://github.com/explainableaixai/urlcategorizationdatabase-dart
 issue_tracker: https://github.com/explainableaixai/urlcategorizationdatabase-dart/issues
